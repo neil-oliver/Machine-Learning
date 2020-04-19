@@ -59,14 +59,14 @@ for x in range(0,clusterVal):
 
 ## Plots
 ### Cluster 10
-!['./cluster_10.png']
+![](./cluster_10.png)
 ### Cluster 20
-!['./cluster_20.png']
+![](./cluster_20.png)
 ### Cluster 50
-!['./cluster_50.png']
+![](./cluster_50.png)
 ### Cluster 100
-!['./cluster_100.png']
+![](./cluster_100.png)
 
 ## Cluster Selection
 There appears to be a slight elbow that can be seen in many of the plots around 4 clusters. This was discounted as a viable option as i do not believe that creating so few clusters would be useful.
-None of the different clustering plots show an extremely prominent elbow, but from looking at the elbow plot for 50 clusters there appears to be a slight flattering on the curve at around 20 clusters. Looking at the [sample]('./cluster_20_sample.rtf') produced by running 20 clusters most of the clusers seem to be sensible, with grouping such as salad, frozen veg, and icecream.
+None of the different clustering plots show an extremely prominent elbow, but from looking at the elbow plot for 50 clusters there appears to be a slight flattering on the curve at around 20 clusters. Looking at the [sample](./cluster_20_sample.rtf) produced by running 20 clusters most of the clusers seem to be sensible, with grouping such as salad, frozen veg, and icecream.
